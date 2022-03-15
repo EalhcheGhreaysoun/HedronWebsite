@@ -1,19 +1,8 @@
 body {
     background-color: black; 
+    color: white;
     text-align: center;
     font-family: "open dislexic"
-}
-h1 {
-    color: white; 
-}
-p {
-    color: white; 
-}
-a{
-    color: white;
-}
-ol {
-    color: white; 
 }
 .logo {
     width: 100px;
@@ -22,6 +11,7 @@ ol {
 }
 .logoTitle{
     font-size: 300%;
+    color: white; 
 }
 @font-face {
     font-family: "open dislexic";
