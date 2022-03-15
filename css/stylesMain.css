@@ -1,6 +1,7 @@
 body {
     background-color: black; 
     text-align: center;
+    font-family: "open dislexic"
 }
 h1 {
     color: white; 
@@ -21,4 +22,8 @@ ol {
 }
 .logoTitle{
     font-size: 300%;
+}
+@font-face {
+    font-family: "open dislexic";
+    src: url(../fonts/OpenDyslexic-Regular.otf);
 }
