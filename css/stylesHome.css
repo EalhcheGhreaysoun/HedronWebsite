@@ -4,4 +4,7 @@
     background-image: url(../src/GrayWorldRoomRender.png);
     background-position: center;
     background-size: cover;
-}
+    color: rgb(9, 35, 70);
+    text-shadow: rgb(110, 176, 214) 0.2em 0.2em;
+    font-size: 150%;
+} 

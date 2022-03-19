@@ -61,8 +61,8 @@ a:hover {
     float: left;
     width: 6.25em;
     position: fixed;
-    top: 0.625em;
-    left: 0.625em;
+    top: 1.5em;
+    left: 1.5em;
 }
 
 .logoTitle{
@@ -70,8 +70,7 @@ a:hover {
     font-size: 300%;
     color: white;
     position: fixed; 
-    top: -0.3125em;
-    left: 3em;
+    left: 2.75em;
 }
 /*---------------------------*/
 .headerBlock{
