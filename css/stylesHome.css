@@ -1,4 +1,7 @@
 #section{ 
-    background-image: url(../src/grayGradientPolygon.png);
-
+    padding-top: 10em;
+    padding-bottom: 10em;
+    background-image: url(../src/GrayWorldRoomRender.png);
+    background-position: center;
+    background-size: cover;
 }
