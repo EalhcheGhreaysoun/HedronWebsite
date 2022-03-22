@@ -1,21 +1,15 @@
-body {
-    background-color: black; 
-    text-align: center;
+#container{
+    padding-bottom: 30em;
+    background-image: url(../src/ballRender.png);
+    background-color: black;
+    background-position: center;
+    background-size: cover;
 }
-a:link, a:visited{
-    color: white;
-    
+a, a:link, a:visited {
+    text-decoration: none;
 }
-.selfLink{
-    color:aqua;
-}
-.logo {
-    color: white;
-    width: 100px;
-    padding: 25px;
-    padding-top:50px;
-}
-.logoTitle{
-    color: white;
-    font-size: 300%;
+a:hover{
+    color: rgb(1, 49, 77);
+    background-image: none;
+    background-color: transparent;
 }
