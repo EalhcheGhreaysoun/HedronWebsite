@@ -1,3 +1,6 @@
+--white { color: #fff }
+--black { color: #000}
+
 body {
     background-color: black; 
     color: white;
@@ -74,6 +77,10 @@ a:hover {
     color: white;
     position: fixed; 
     left: 2.75em;
+}
+#pageTittle {
+    margin: 2em;
+    font-size: 200%;
 }
 /*---------------------------*/
 .headerBlock{
