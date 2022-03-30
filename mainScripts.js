@@ -1,16 +1,20 @@
 var isDark = true;
 
-function change(){
-    if (isDark == true){
+function change()
+{
+    if (isDark == true)
+    {
         whiteColorSceme();
     }
-    else if (isDark ==  false){
+    else if (isDark == false)
+    {
         blackColorSceme();
     }
 }
 
-function whiteColorSceme(){
-    var dropdownContent  = document.getElementsByClassName('dropdown-content');
+function whiteColorSceme()
+{
+    var dropdownContent = document.getElementsByClassName('dropdown-content');
     var logoTitle = document.getElementsByClassName('logoTitle');
     var logo = document.getElementsByClassName('logo');
     var menuButton = document.getElementsByClassName('menuButton');
@@ -26,15 +30,16 @@ function whiteColorSceme(){
     bodyElements[0].style.color = "black";
 
     dropdownContent[0].style.backgroundColor = "black";
-    for(i=0; i < links.length; i++){
+    for (i = 0; i < links.length; i++)
+    {
         links[i].style.color = "white";
     }
-    
-    logoTitle[0].style.color = "black";
-    logo[0].src = "../src/HedronLogoB.png";
-    menuButton[0].src = "../src/menuButtonB.png";
 
-    switchTheme.src = "../src/moon.png";
+    logoTitle[0].style.color = "black";
+    logo[0].src = "src/HedronLogoB.png";
+    menuButton[0].src = "src/menuButtonB.png";
+
+    switchTheme.src = "src/moon.png";
     isDark = false;
 };
 function blackColorSceme()
@@ -61,9 +66,9 @@ function blackColorSceme()
     }
 
     logoTitle[0].style.color = "white";
-    logo[0].src = "../src/HedronLogoW.png";
-    menuButton[0].src = "../src/menuButton.png";
+    logo[0].src = "src/HedronLogoW.png";
+    menuButton[0].src = "src/menuButton.png";
 
-    switchTheme.src = "../src/sun.png";
+    switchTheme.src = "src/sun.png";
     isDark = true;
 };
